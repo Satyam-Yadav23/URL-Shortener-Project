@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import connectDB from './src/config/mongo.config.js';
 import ShortUrl from './src/models/shortUrlmodel.js';
 import auth_routes from './src/routes/auth.routes.js';
-import user_routes from './src/routes/user.routes.js'
+import user_routes from './src/routes/user.routes.js';
 import shortUrlRoutes from './src/routes/shortUrl.route.js';
 import { redirectFromShortUrl } from './src/controller/shortUrl.controller.js';
 import { errorHandler } from './src/utils/errorHandler.js';
